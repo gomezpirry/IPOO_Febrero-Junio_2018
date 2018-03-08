@@ -1,0 +1,16 @@
+//-------------------------------------------------
+//   Calificación: 0.0
+//
+//  * No hay explicación de como resolver el punto
+//--------------------------------------------------
+
+6. (requiere archivo .cpp) Se requiere realizar un programa que realice las operaciones de
+suma y resta sobre una matriz A y una matriz B. Ambas matrices deben tener la misma
+dimensi�on (mismas filas y columnas en A y B) y se realiza la suma o resta componente
+a componente como se muestra en el ejemplo:
+_______________________________________________________________________________________________
+El programa debe validar que las matrices tengan las mismas dimensiones sino debe
+mostrar un mensaje de error y salir del programa. Use esta instrucci�on para salir
+(exit(EXIT FAILURE);). Para calcular el tama�no de las filas y las columnas use las
+siguientes instrucciones:
+_______________________________________________________________________________________________

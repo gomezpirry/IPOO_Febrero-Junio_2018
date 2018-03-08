@@ -1,0 +1,38 @@
+//-------------------------------------------------
+//   Calificación: 0
+//
+//  * La respuesta es incorrecta
+//--------------------------------------------------
+
+2.Se tiene el siguiente fragmento de c�digo en C++:
+
+char c = �T � , d = � S � ;
+char *p1 = &c ;
+char *p2 = &d ;
+char *p3 ;
+
+
+____________________________________________________
+
+Asuma que la direcci�n donde esta almacenada c es 7721, y donde est� almacenado d
+es 6925. �Qu� mostrar� la consola al ejecutar el siguiente bloque de c�digo?. Explique
+su respuesta.
+
+
+p3 = &d ;
+cou t << �*p3 = � << *p3 << �\n� ; // 1
+p3 = p1 ;
+cou t << �*p3 = � << *p3 << �\n� ; // 2
+cou t << �p3 = � << p3 << �\n� ; // 3
+*p1 = *p2 ;
+cou t << �*p1 = � << *p1 << �\n� ; // 4
+cou t << �p1 = � << p1 << �\n� ; // 5
+
+__________________________________________________
+
+/// La respuesta no es clara, LA afirmación de asignarle a p3 un valor de una variable d es incorrecta. A p3 se le asigna la 
+/// dirección de la variable d, no el valor de la variable
+
+R/ Porque le asignamos a p3 el valor de una variable d, la cual el puntero p3 nos retorna el valor almacenado en esa variable,por
+ejemplo p3=&d el valor esta almacenado en d, entonces el programa va a mostrar lo que hay en s y asi sucesivamente con los dem�s
+punteros.

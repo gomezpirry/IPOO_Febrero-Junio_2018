@@ -1,0 +1,11 @@
+//-------------------------------------------------
+//   Calificación: 0.0
+//
+//  * No hay explicación de como resolver el punto
+//--------------------------------------------------
+
+5. (requiere archivo .cpp) Realice un programa que calcule la matriz traspuesta At de una
+matriz A. En una matriz traspuesta el elemento aji de la matriz original A se convertir�a
+en el elemento aij de la matriz At
+___________________________________________________________________________________________
+. Una vez calculada muestrela en pantalla

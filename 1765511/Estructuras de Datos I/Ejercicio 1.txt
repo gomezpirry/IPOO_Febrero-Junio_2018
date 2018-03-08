@@ -1,0 +1,26 @@
+//-------------------------------------------------
+//   Calificación: 0.83
+//
+//--------------------------------------------------
+
+
+int foo = 1 0;                                                                                 /                                                                              
+int * p t r = &foo ;                                                                          /
+_____________________________________________________________________________________________/
+�Cuales de las siguientes instrucciones modifica el valor de foo y lo vuelve 11?. Explique
+su respuesta.
+a) ptr++
+b) foo++
+c) (*foo)++                                                                                     /
+d) (*ptr)++
+e) (&foo)++                                                                                     /
+f ) (&ptr)++
+______________________________________________________________________________________________/
+
+Respuesta:
+
+// OK
+La Respuesta correpta el la (B) FOO++)
+
+Porque le esta dando la orden a la bariable que aumente el valor en uno. (si se cumple o no se cumple una 
+condicion o en dado caso que necesite seguir contando)

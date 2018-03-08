@@ -1,0 +1,204 @@
+//-------------------------------------------------
+//   Calificación: 
+//
+// - Ejercicio 1: 0.83
+// - Ejercicio 2: 0.7
+// - Ejercicio 3: 0.83
+// - Ejercicio 4: 0.83
+// - Ejercicio 5: 0.83
+// - Ejercicio 6: 0.83
+//--------------------------------------------------
+
+Yuliana Serna Sanchez 
+ID: 1765573 -2711
+
+
+
+
+[1] �Cuales de las siguientes instrucciones modifica el valor de foo y lo vuelve 11?. Explique
+su respuesta.
+
+
+
+Respuesta:  
+// OK
+d) (*ptr)++
+ Porque: con el asterisco se declara una variable de tipo puntero la cual se puede modificar 
+realizando un llamado de la misma con (*puntero) donde se obtiene el valor guardado en memoria 
+acompa�ado de su nueva funcion como por ejemplo: (*puntero)++ la cual se utiliza para incrementar 
+el valor de uno en uno.
+
+
+[2] Respuestas de los siguientes puntos:
+
+char c = �T � , d = � S � ;
+char *p1 = &c ;
+char *p2 = &d ;
+char *p3 ;
+
+Direccion donde esta almacenada: c : es 7721     d : es 6925.
+
+    
+        #1.      p3 = &d ;
+                 cout << �*p3 = � << *p3 << �\n� ; 
+
+      -El * nos sirve para realizar el llamado al valor de la variable que esta guardada en &d  , 
+       que este caso *p3 nos retornaria � S �
+
+      
+        #2.      p3 = p1 ;
+         cout << �*p3 = � << *p3 << �\n� ;
+
+      -	Los valores de p3 son los mismos de p1, 
+      -	Donde p1 tiene definida la variable C 
+      -	Por lo cual *p3 va retornar el valor de la variable C  que es igual a  �T�
+     
+
+        #3. 
+   
+.       p3 = p1 ;
+        cout << �p3 = � << p3 << �\n� ;
+
+
+        - En este caso se hace el llamado con solo p3 lo que debe retornar es la direcci�n que esta 
+        guardada  p1  ya que es la misma de p3.
+        - lo que va a retornar es la direcci�n donde esta guardada la  variable( C )   que corresponde a (p3) 
+        La cuall es 7721 
+       
+pac
+        #4.  *p1 = *p2 ;
+
+             cout << �*p1 = � << *p1 << �\n� ;
+        
+             - El valor de la variable de *p1 se reemplaza con el valor de la variable de *p2 y su variable d 
+               el cual tiene como valor "s"
+       
+        #5.  *p1 = *p2;
+               
+              cout << �p1 = � << p1 << �\n� ;
+//// *p1 no modifica la dirección sino el valor de la variable, la direccion de p1 sigue siendo igual = 7721
+             - En este caso va retornar la direccion que reemplazo *p1 por la direccion de *p2
+
+                 
+[3] Ejercicio 3:
+
+explicacion por linea 
+
+-linea 30 a 35: definicion de datos, cada una en un arreglo dependiendo su tipo. 
+_linea 37 a 54. Son condicionales donde: 
+if: me dice que  si la capacidad de estudiantes permitidas es mayor  4, saldria del programa 
+con la instruccion para salir (exit(EXIT FAILURE).
+
+mientras else: es todo lo  contrario que si se  cumple la condicion de estar en el rango de 0 a 4 
+lo que pasara a continucion es: 
+               -linea 41: empieza un for que va recorrer los arreglos entre los espacios de memoria desde  
+                  0 hasta lo permite la capacidad. 
+
+               -linea42: se calcula el promedio de un quiz1 y un quiz 2, los cuales se suman y se dividen 
+                entre 2 y su resultado se multiplica entre 0.25% de la nota final. 
+
+               -linea43: se calcula el promdio del parcial multiplicandolo 0.35 (35%) de la nota final 
+
+               -linea44: se calcula el prmedio del proyecto multiplicandolo 0.40(40%) de la nota final. 
+               
+               -linea45: se saca la nota final con la suma de los quiz, mas el parcial, mas el proyecto. 
+
+-linea 47 a 52: se va sacar en pantalla los datos de cada  estudiante como su nombre con sus diferentes 
+notas y al final su nota total o final. 
+
+
+
+
+[4] ejercicio 4
+
+-linea 10: se hace un arrelo con 10 espacios de memoria y con dies (*diez) numeros tipo entero. 
+
+-linea 11. se define dos variables tipo entero la primera se llama buscar por lo consiguiente va a buscar el 
+valor 4 entre el arreglo. la segunda es repetido que empezara desde 0 asi que esta variable se encargara de
+buscar cuantas veces se repite el valor de buscar. 
+
+-linea 13: hay un for que va recorrer el arreglo desde el espacio de memoria 0 hasta de 10 que fue el espacio que se 
+definio. 
+
+-linea 15 al 21: hay dos condicionales (if) y (else) donde:
+           
+              -linea 15: en (if) se va ser una comparacion del numero a buscar con los numeros que estan en 
+               el arreglo y si se cumple que no esta entre esos valores el programa se saldra con la instruccion 
+               exit(EXIT FAILURE);
+
+              -linea 17: en (else) evaluara la otra parte del condicional si el numero a buscar se encuentra entre
+               el arreglo y ademas con la varible repetido buscara y sumara cuantas veces se repite tal valor. 
+
+-linea 22: va mostrar en patalla el numero a buscar y el numero de las veces que se repite. 
+
+
+
+[5] ejercicio 5
+
+-linea 19: se define una matriz con variable tipo entero llamada A1 con 3 filas y tres columnas. 
+- linea 21: se define un for con un bucle (i) que va recorrer las filas.
+-linea 22: se define un segundo for con un bucle (j) que va recorrer las columnas.
+-linea 23: guardamos los dos bucles (i) y (j) en un cout.
+-linea 24: se muestra las filas y sus columnas. 
+
+
+- linea 30 a 34: se crea la matriz original: 
+       - linea 30: guardamos la matriz original.
+       - linea 31: con for llenamos las filas de la matriz original asegurandonos que ocupara solo 3 espacios de memoria. 
+       - linea 32: con for llenamos las columnas de la matriz original asegurandonos que ocupara solo 3 espacios de memoria.
+       - linea 33: guardamos la matriz con un orden de filas y columnas.
+ 
+- linea 37 a 41: se crea la matriz transpuesta: Es hay donde se cambia el sentido entre filas y columnas, intercambiandosen 
+el lugar entre ellas. 
+      - linea 37: guardamos la matriz transpuesta. 
+      - linea 38:con un for llenamos las filas de la matriz transpuesta asegurandonos que ocupara solo 3 espacios de memoria. 
+      - linea 39:con for llenamos las columnas de la matriz transpuesta asegurandonos que ocupara solo 3 espacios de memoria. 
+      - linea 40: guardamos la matriz con un orden de columnas y  filas (es en este punto donde intercambiamos el 
+                 sentido entre las filas y columnas para generar tal intercambio).
+
+
+[6] ejercicio 6: 
+
+- linea 8: define dos varibles, filas1 y columnas1 . 
+- linea 9: define dos varibles, filas2 y columnas2. 
+
+-linea 14: guardara cuantas filas decea el usuario que tenga la matriz.
+-linea 15: mostrara cuantas van hacer las filas. 
+-linea 16: guardara cuantas columnas quiere que tenga la matriz1.
+-linea 17: mostrara cuantas columnas tendra.
+-linea 18: define la matriz1  de tipo entero con las filas1 y columnas1.
+-linea 21 a la 26: dos for que ayudaran a rellenar las matrizes dependiendo el espacio permitidas
+en las columnas y filas.
+
+-linea 28: guardara cuantas filas decea el usuario que tenga la matriz2.
+-linea 29: mostrara cuantas van hacer las filas. 
+-linea 30: guardara cuantas columnas quiere que tenga la matriz2.
+-linea 31: mostrara cuantas columnas tendra.
+-linea 33: define la matriz2  de tipo entero con las filas2 y columnas2.
+-linea 35 a la 38: dos for que ayudaran a rellenar las matrizes dependiendo el espacio permitidas
+en las columnas y filas.
+
+- lineas 42 a la 104: van hay unos condicionales que evaluar.(if) y (swhitch) 
+ 
+- donde (if) evalua el tama�o de memoria entre las filas y las columnas de las dos matrices y en el momento que se 
+verefiquen que son diferentes saldran del programa. 
+                  lineas 47 ala 53: vamos a definir un menu para que el usurio decida que quiere hacer con las dos 
+                          matrices.
+
+-la otra parte de los condicionales (swhitch)  la parte donde nos precenta los diferentes tipos de casos 
+que quiere que ejecute el usuario si es el caso 1: realisaria una suma entre las dos. si el caso 2 realizaria una resta.
+ 
+
+
+
+
+
+
+
+
+                 
+
+
+  
+
+    

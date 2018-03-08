@@ -1,0 +1,27 @@
+//-------------------------------------------------
+//   Calificación: 
+//
+// - Ejercicio 1: 0.83
+// - Ejercicio 2: 0
+// - Ejercicio 3: 0.83
+// - Ejercicio 4: 0.83
+// - Ejercicio 5: 0.83
+// - Ejercicio 6: 0.83
+//--------------------------------------------------
+
+1).La respuesta es la B el entero es guardado en la variable foo  al referirse a foo con un ++ quiere decir que la variable foo aumentara en 1con respecto a su valor original.
+ 
+2)p3 = &d; mostraria la referencia de memoria de la variable *p3 en el primer caso que seria 6925. // *p3 muestra el valor = 'S'
+ 
+ p3 = p1; mostaria la referencia de memoria *p3 que tiene guardado &c que seria 7721 (*p3 muestra el valor = ´'T) p3 muestra la referencia de memoria de &c.
+
+*p1 = *p2; mostraria la referencia de memoria de p1 (*p1 modifica el valor de la variable que esta almacenada en la dirección de p1) ; mostraria la referencia de memoria que hay guardada en p1 que seria la referencia de memoria *p2.
+
+3) defini los tama�os del arreglo  luego las variables que se solicitaban  lugo escribi lo que saldra en pantalla junto con el menu para el usuario  despues de ello y que el usuria ingrese los datos  aplicaria la operacion matematica alos quiz parciales proyectos con sus respectivos porcentajes para generar la nota definitiva y el usurio la logre ver en pantalla.
+
+4)defini un arreglo de 10 con enteros con otra variable buscar que tambien seria entera con la cual el usurio digite su numero y el programa realice su busqueda pero ademas cree otra variable repetido la cual me dira cuantas veces se encuentra el numero a buscar en el arreglo  para ello realice un for que almacena las variable i que comienza en 0 hasta llegar a 10 y cada vez que arreglo sea == buscar aumentara en 1 con ++ pero para ello necesite un if que es la condicion para que el arreglo aumente en 1.
+
+5)empece definiendo dos variables enteras  las cuales eran filas y columnas  luego hice que mostrara en pantalla al usuario paque digitara dicha cantidad luego de digitarla crearia la matris original utilizando un for  con unas variables entero que varian de acuerdo con lo que el usuario digite despues realice la matriz transpuesta la cual la realice con las mismas varibles pero las cuales serian lo contrario de la matriz normal.
+
+6)define las variables como enteros de las filas y columnas de cada matriz   para que el usuario digite en pantalla de cuanto las quiere
+luego ralice una opcion porsi las filas y columnas del 1 son distintas al dos para que salga eror en caso de cumplan las condiciones definiria las matrices como quedarian y las operaria primero en suma luego en resta mediante unas varibles las cuales recorren las variables de 1 en 1 para que me de dichos resultados.

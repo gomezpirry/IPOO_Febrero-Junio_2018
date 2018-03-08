@@ -1,0 +1,61 @@
+//-------------------------------------------------
+//   Calificación: 0.5
+//
+//  * Hay puntos incorrectos
+//--------------------------------------------------
+
+
+2. (No requiere archivo .cpp) Se tiene el siguiente fragmento de codigo en C++:
+______________________________________________________________________________________
+char c = �T � , d = � S � ;
+char *p1 = &c ;
+char *p2 = &d ;
+char *p3 ;
+_______________________________________________________________________________________________
+Asuma que la direccion donde esta almacenada c es 7721, y donde esta almacenado d
+es 6925. �Que mostrara la consola al ejecutar el siguiente bloque de codigo?. Explique
+su respuesta.
+_____________________________________________________________________________________________
+p3 = &d ;
+cou t << �*p3 = � << *p3 << �\n� ; // 1
+
+p3 = p1 ;
+cou t << �*p3 = � << *p3 << �\n� ; // 2
+
+cou t << �p3 = � << p3 << �\n� ; // 3
+
+*p1 = *p2 ;
+cou t << �*p1 = � << *p1 << �\n� ; // 4
+
+cou t << �p1 = � << p1 << �\n� ; // 5
+
+
+(c=7721) (d=6925)
+
+
+Respuesta:
+
+/// OK
+Cout Numero 1 : Es la (S).
+Porque le asignamos a "p3" el valor de la variable "d" la cual con el puntero "*p3" nos retorna el valor almacenado en ella. 
+Estamos pidiendo el valor almacenado con un "*"
+
+/// OK
+Count Numero 2 : Es la (T).
+Porque a "p3" le estamos asignando el valor de "p1" el cual es igual al valor almacenado en "c" que seria en este caso la "T"
+Estamos pidiendo el valor almacenado con "*"
+
+/// Este cout muestra la dirección 7721 de c almacenada en p3, para solicitar el valor debe ser (*p3)
+Count Numero 3 : Es la (S)
+Porque anterior mente a la variable "p3" le asignamos el valor de "d" y solo estamos pidiendo que nos imprima en pantalla el 
+valor de "p3" que seria "s". Lo estamos pidiendo con el puntero3.
+
+/// OK
+cout Numero 4 : El valor a retornar seria (S)
+Porque estamos remplasando el valor almacenado en el puntero "*p1" por el valor almacenado en el puntero "*p2" estamos pidiendo que nos imprima em pantalla
+el valor almacenado en "*p1"
+
+// Este cout muestra la dirección 7721 de c almacenada en p1, para solicitar el valor debe ser (*p3)
+Cout Numero 5:Es la (T)
+Porque estamos pidiendo que retorne  directamente el valor de p1 que en este caso fue almacenado el la "c" que nos retorna un valor de "T".
+

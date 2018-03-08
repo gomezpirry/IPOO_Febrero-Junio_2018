@@ -1,0 +1,31 @@
+//-------------------------------------------------
+//   Calificación: 
+//
+// - Ejercicio 1: 0.83
+// - Ejercicio 2: 0.7
+// - Ejercicio 3: 0
+// - Ejercicio 4: 0
+// - Ejercicio 5: 0
+// - Ejercicio 6: 0
+//
+//--------------------------------------------------
+
+1.  // OK
+B)foo++
+La instruccion que modifica el valor de foo es foo++, porque al ejecutar esta instrucci�n
+el foo++ se va sumando en uno en uno hasta que ya sea falso la condicion, entonces el foo++ modifica el valor de foo. Las otras son malas.
+
+2.
+ En el 1, 2 y 4 nos va mostra el valor de la variable, porque para uno obtener el valor almacenado en el 
+puntero se usa tambien el operador *
+
+//
+
+En el caso 3 y 5 va a mostrar la direccion de memoria , despu�s de que en el cout no lleve
+un * en la declaracion de la variable lleve el &, el cual nos llevaria a la direccion de memoria.
+1. *p3 = T
+2. *p3 = S
+3.  p3 = 7721
+4. *p1 = S
+5.  p1 = 6925 // *p1 no modifica la direccion de p1 solo modifica el valor
+

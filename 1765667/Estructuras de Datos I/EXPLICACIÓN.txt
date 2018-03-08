@@ -1,0 +1,59 @@
+//-------------------------------------------------
+//   Calificación: 
+//
+// - Ejercicio 1: 0.83
+// - Ejercicio 2: 0.7
+// - Ejercicio 3: 0.83
+// - Ejercicio 4: 0.83
+// - Ejercicio 5: 0.83
+// - Ejercicio 6: 0.83
+//
+//--------------------------------------------------
+
+1.) B)foo++
+La instruccion que modifica el valor de foo es foo++, porque al ejecutar esta instrucci�n
+el foo++ lo que hace es aumentar el valor de foo en 1, entonces el foo++ modifica el valor de foo, si se
+ejecuta ptr++ solo cambia la direccion de memoria en la que se encuentra ubicado el arreglo. Las otras
+opciones son errores. 
+//OK
+
+2.) En el caso 1, 2 y 4 va a mostrar el valor de la variable, porque para obtener el valor almacenado en el 
+puntero se usa tambien el operador * ej: cout<<*p3;
+
+
+En el caso 3 y 5 va a mostrar la direccion de memoria donde est� almacenado, despu�s de que en el cout no lleve
+un * y en la declaracion de la variable lleve el &, el cual lleva a la direcci�n de memoria donde est� almacenado.
+Los resultados en pantalla ser�a:
+1. *p3 = T
+2. *p3 = S
+3.  p3 = 7721
+4. *p1 = S
+5.  p1 = 6925 /// *p1 No modifica la dirección solo modifica el valor
+
+3.)Para empezar, declar� la variable tam (que representa el tama�o del arreglo, para que todos los arreglos tengan el mismo
+tama�o). Despu�s utilic� una cadena de caracteres string, para que tenga la libertad de darle nombre al estudiante, la variable
+codigo la tom� de tipo entera porque no ten�a necesidad de utilizar numeros flotantes. Luego los arreglos para quiz1, quiz2, parcial y
+proyecto, las declar� flotantes para que tengan valor decimales. Luego agregu� un if para que evalue si los tama�os de los arreglos estan
+bien o si son mayores al tama�o, automaticamente pare el proceso y salga del programa y si no pasa lo anterior que realice un ciclo for, en 
+el cual el iterante nos va a indicar la posicion y el dato exacto del arreglo (el iterante repite el ciclo 5 veces, as� que el iterante aumenta
+en 1 cada vez que el ciclo se repite). Luego declar� la variable quizes para almacenar el promedio de el quiz1 y el quiz2, luego le saqu� el promedio
+y lo multipliqu� por el 25%, por �ltimo declare la varible nota_final como flotante, ya que las notas son dadas en numeros decimales, esta hace la
+suma de la nota de los dos quizes con la nota del parcial y con la nota del proyecto.
+NOTA: la variable i, arranca en 0, entonces al momento de repetir el ciclo, esta va aumentando en 1, as� solicito los valores de los arreglos.
+
+4.)Para este punto es necesario tener que incluir la libreria <typeingo>(<typeinfo>) para poder hacer la funcion typeid. Defin� el arreglo con 10 enteros y otra variable
+buscar tipo entero, el cual recibe un valor para buscarlo en el arreglo, luego defin� otra variable repetido, que sirve para contar las veces que se repite el 
+numero en el arreglo, despues hice el ciclo for, para que el iterante tome un valor y navegue por todo el arreglo comprarando los n�meros con el valor a buscar.
+Hice un condicional if, que evalua si el numero a buscar es distinto al numero en la posicion del arreglo y si no est�, para todo el proceso y no arroja nada
+luego esta el else, que busca el numero a buscar en el arreglo con la funcion typeid, agregu� el repetido++ para que cada vez que encuentre el numero lo sume
+y al final imprima cuatas veces esta repetido, agregue el system("cls") para que cree una nueva ventana y solo me muestre una sola linea de impresion.
+
+5.)Para empezar, declar� la matriz_A como tipo entera, lo que hice fue hacer un arreglo de dos dimensiones �Por qu� de dos dimensiones?
+por el hecho de que hay que tener en cuenta las filas y columnas las cuales son representadas como [i] [j], entonces lo que hago es hacer un ciclo for
+donde contiene otro ciclo para que imprima la matr�z original, el cout<<"\n" es para que cuando cuente las columnas haga un salto de linea y se pueda apreciar
+las filas x columnas, sin el cout<<"\n", imprime los n�meros continuamente. Para la matriz traspuesta solo es intercambiar el [i] en j y el de [j] en i, as�
+cout<<matriz_A [j][i] y esto lo que va a hacer es cambiar las filas por las columnas y las columnas las cambia por las filas.
+
+6.)Para este punto, defin� las matrices como tipo entera, luego defini las variables suma y resta las cuales me ayudaran a sumar o restar las matrices. Despues hice otro
+condicional que evalua si las dos matrices son del mismo tama�o y as� seguir con el proceso de sumar p restar las matrices, luego hice un for dentro de otro for para navegar
+entre filas y columnas y as� que sume o reste las matrices, luego hice un else para el if, el cual cierra el programa si las matrices a y b no son del mismo tama�o.

@@ -1,0 +1,23 @@
+//-------------------------------------------------
+//   Calificación: 0.0
+//
+//  * No hay explicación de como resolver el punto
+//--------------------------------------------------
+
+3. (requiere archivo .cpp) Se requiere un programa para calcular las notas de los estudiantes
+_____________________________________________________________________________________________-
+de un curso basado en las siguientes consideraciones:
+Se tiene un arreglo con los nombres de los estudiantes, un arreglo con los c�odigos
+de los estudiantes, un arreglo con las notas del quiz1, un arreglo con las notas del
+quiz2, un arreglo con las notas del parcial y un arreglo con las notas del proyecto.
+Cada �indice del arreglo corresponde a un estudiante y todos los arreglos deben
+tener el mismo tama�no, sino debe mostrar un mensaje y salir del programa. Use
+esta instrucci�on para salir (exit(EXIT FAILURE);).
+Defina un arreglo que almacene las notas finales teniendo que la evaluaci�on del
+curso es la siguiente:
+______________________________________________________________________________________-
+� quizes: 25 %
+� parcial: 35 %
+� proyecto: 40 %
+Finalmente mueste en consola la lista de todos los estudiantes con todas las notas
+incluyendo la nota final

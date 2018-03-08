@@ -1,0 +1,132 @@
+//-------------------------------------------------
+//   Calificación: 
+//
+// - Ejercicio 1: 0.83
+// - Ejercicio 2: 0.7
+// - Ejercicio 3: 0.83
+// - Ejercicio 4: 0.83
+// - Ejercicio 5: 0.83
+// - Ejercicio 6: 0.83
+//
+// * El mismo archivo de 1765517
+//
+//--------------------------------------------------
+
+andres felipe henao padilla
+ID:1765580 - 2711
+
+[1]�Cuales de las siguientes instrucciones modifica el valor de foo y lo vuelve 11?. Explique
+su respuesta.
+
+
+
+Respuestas: 
+
+// OK
+b) foo ++
+porque: foo es igual al valor de 10 y al colocar foo ++ se la va a sumar un 1 al valor de 10 convirtiendolo 
+en un 11 y asi modificandolo
+d) (*ptr)++
+ Porque: con el asterisco se declara una variable de tipo puntero la cual se puede modificar 
+realizando un llamado de la misma con (*puntero) donde se obtiene el valor guardado en memoria 
+acompa�ado de su nueva funcion como por ejemplo: (*puntero)++ la cual se utiliza para incrementar 
+el valor de uno en uno.
+
+[2] Respuestas de los siguientes puntos:
+
+char c = �T � , d = � S � ;
+char *p1 = &c ;
+char *p2 = &d ;
+char *p3 ;
+
+Direccion donde esta almacenada: c : es 7721     d : es 6925.
+
+    
+        #1.      p3 = &d ;
+                 cout << �*p3 = � << *p3 << �\n� ; 
+
+      -El * nos sirve para realizar el llamado al valor de la variable que esta guardada en &d  , 
+       que este caso *p3 nos retornaria � S �
+
+      
+        #2.      p3 = p1 ;
+         cout << �*p3 = � << *p3 << �\n� ;
+
+      -	Los valores de p3 son los mismos de p1, 
+      -	Donde p1 tiene definida la variable C 
+      -	Por lo cual *p3 va retornar el valor de la variable C  que es igual a  �T�
+     
+
+        #3. 
+   
+.       p3 = p1 ;
+        cout << �p3 = � << p3 << �\n� ;
+
+
+        - En este caso se hace el llamado con solo p3 lo que debe retornar es la direcci�n que esta 
+        guardada  p1  ya que es la misma de p3.
+        - lo que va a retornar es la direcci�n donde esta guardada la  variable( C )   que corresponde a (p3) 
+        La cuall es 7721 
+       
+
+        #4.  *p1 = *p2 ;
+
+             cout << �*p1 = � << *p1 << �\n� ;
+        
+             - El valor de la variable de *p1 se reemplaza con el valor de la variable de *p2 y su variable d 
+               el cual tiene como valor "s"
+       
+        #5.  *p1 = *p2;
+               
+              cout << �p1 = � << p1 << �\n� ;
+/// *p1 = modifica el valor del puntero p1 , no modifica la dirección que tiene almacenada p1
+             - En este caso va retornar la direccion que reemplazo *p1 por la direccion de *p2 
+
+[3] para este tercer punto se realizo un programa al cual se le van a ingresar el numero de estudiantes, con sus codigo las notas de los quizes
+ ,parcial y el proyecto y el programa va a calcular la definitiva para una mayor comodidad para el usuario.
+
+primero se definieron las variables y los arreglos que se van a utlizar, estudiantes codigo, notas(quiz1 quiz2 parcial proyecto)
+
+despues con un do while dentro de el primero se creo un menu con las opciones que va tener el usuario,  que accion quiere realizar; despues dentro del el do while se 
+creo un switch case, que en su primer caso ingresa en pantalla la cantidad de estudiantes que se van a ingresar y dependiendo
+de eso se le ingresa su nombre y su respectivo codigo.
+
+en el caso dos hace lo mismo que en el caso anterior pero ahora se crea en la pantalla el ingreso de las notas, 
+dependiendo de la cantidad de los estudiantes y el parametro que permite de cuanto se puede asignar una nota, que es de 0.0 a 5.0 de no ser 
+asi lo devolvera,adicionalmente se le agregaron algunas funciones como el while por si se ingresaba algo inexistente para los parametros del programa
+ lo expulsara.
+
+En el caso tercero se calculan las definitivas de las notas y se crea un menu que muestra el listado de los estudiantes su nombre, codigo y toda sus notas 
+con su  respectiva definitiva.
+
+[4] en este punto se define un arreglo de 10 numeros y el objetivo del programa es buscar los numeros repetidos que se encuentran en ese arreglo 
+y que se muestren en pantalla, para esto se utilizo un for que recorre el arreglo y busca el numero repetido si es igual el elemento en la posicion,
+ que esbuscar definida como 4 aparece el numero de veces repetido si no, no realiza nada.
+
+[5] para el quinto punto se creo un programa que se le ingresa un numero x de filas y columnas y determinando el tama�o de esas filas y 
+columnas,  por medio de un for llena una matriz que quedara como matriz original,despues se hara lo anterior pero con una segunda matriz,nombrada
+matriz transpuesta que su trabajo es cambiar filas por columnas como por ejemplo:
+ matriz original
+ 1  3
+ 4  5
+
+ matriz transpuesta
+ 1  4
+ 3  5 
+
+[6}para el sexto punto se utilizaron muchas funciones de los puntos pasados, primero crear dos matrices de tama�o de m por n comprobar
+que fueran de igual tama�o y llenarlas por medio de un doble for, luego de esto se despliega un menu donde se selecciona la operacion a realizar 
+ya sea suma o resta,cualquiera de estas dos opciones desplega en pantalla las dos matrices ingresadas y el resultado de la operacion aplicada.
+
+
+
+
+
+
+
+
+
+
+
+
+

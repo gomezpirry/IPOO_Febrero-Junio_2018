@@ -1,0 +1,21 @@
+//-------------------------------------------------
+//   Calificación: 0.83
+// * Solo resolvio el Ejercicio 1 Correctamente 
+//
+//--------------------------------------------------
+
+/// Ejercicio 1: Correcto
+
+ejercicio 1. r//AL REVISAR EL EJERCICIO ENCONTRAMOS QUE EL UNICO BUENO ES EL D PORQUE AL EJECUTAR CADA UNO DE LOS
+CODIGOS NOTAMOS QUE NINGUNO FUNCIONA A EXCEPCION DE ESTE, EL CUAL HACE AUMENTAR EL VALOR DE (FOO) EN UNO PORQUE 
+ESTA ACCEDIENDO DE MANERA CORRECTA A LA VARIABLE.
+
+/// Ejercicio 2: Esta afirmación que haces no es correcta porque el código corre normalmente  
+
+ejercicio 2. r//EL C++ NO PUEDE ACEPTAR QUE LA VARIABLE SE ESTE TOMANDO COMO TEXTO, AL MENOS EN ESTE CASO, POR TAL MOTIVO
+SALDRA ERROR DE CUALQUIER FORMA. ES NECESARIO SABER DIGITAR LOS CODIGOS EN CADA CASO QUE SE PRESENTE PARA NO TENER ERRORES 
+COMO ESTE.
+
+
+
+

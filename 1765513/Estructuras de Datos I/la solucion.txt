@@ -1,0 +1,87 @@
+//-------------------------------------------------
+//   Calificación: 
+//
+// - Ejercicio 1: 0.83
+// - Ejercicio 2: 0.7
+// - Ejercicio 3: 0.83
+// - Ejercicio 4: 0.83
+// - Ejercicio 5: 0.83
+// - Ejercicio 6: 0.83
+//--------------------------------------------------
+
+1. �Cuales de las siguientes instrucciones modifica el valor    de foo y lo vuelve 11?. Explique
+su respuesta.
+
+Respuesta:
+
+/// OK
+la respuesta es la D (*ptr)++
+porque con el "*" busca  la variable que esta dentro de la casilla y cuando se le pone el "++" busca el numero que le sigue en la otra casilla
+
+
+2.Asuma que la direccion donde esta almacenada c es 7721, y donde esta almacenado d
+es 6925.
+
+ �Que mostrara la consola al ejecutar el siguiente bloque de codigo?. Explique
+su respuesta.
+
+La respuesta:
+
+1.en *p3 esta llamando a &d donde esta el valor de la casilla que es "s" // OK
+
+2. *p3 esta llamando a la variable p1 donde se guarda el valor de &C que es "T". // OK
+
+3.p3 esta llamando a la direccion de la varaible p1 donde se ubica &C que la direccion es 7721. //OK
+
+4.  *p1 esta llamando a la varaible *p2 que seria el valor de la casilla &D que es "s". //OK
+
+
+// La instrucción *p1 = *p2 modifica el valor de p1, pero no la dirección , p1 sigue guardando la dirreccion de c 7721
+5. p1 esta llamando a la variable p2 pero solo la direccion de la casilla que seria 6925. /
+
+3)R/
+/// La explicación coincide con el código aunque el programa tiene errores
+9- nombramos una varialbe que se llama capacidad que tiene un valor de 4
+
+11-colocamos "string" "nombre" con el valor de "capacidad" con una matriz de 4 nombres
+
+12-colocamos "int" y una variable que se llame "codigo" luego la "capacidad" y hacemos otra matriz de cuatro numeros,en las demas lineas siguientes se hace lo mismo pero con float para que den numeros decimales colocando su respetiva (** respectiva) variable.
+
+18-haces una comparacion con "if" y "else" que "if" muestra que si capacidad de las matrices se pasan mas de 4 entonces a si mismo termino con el programa a lo contrario si tiene igual o menos que 4 en la matrices llega hasta el "else" ejecutacion la siguiente operacion.
+
+22- le coloque "for" para que me repita cada operacion que se hace siguiente el procedimeinto de operaciones matematicas
+
+27- luego coloco "cout precision(2)" para que solo me salgan dos numeros de los resultados de la nota luego coloco otros "cout" para que aparescan los resultados de las operaciones finales
+
+4)r/
+/// La explicación coincide con el código aunque el programa tiene errores
+primero hay que poner una nueva libreria para que nos lea un uevo codigo que es typeid(buscar).name();
+
+9- aqui se hace una matriz con capacidad de 10
+
+12-luego se hace un for para que busque en la matrices lo que se le esta pidiendo
+
+14- pnemos un if donde si en el arreglo que se coloca no es de acuerdo a lo que se le pide automaticamente se sale del programa
+
+16-pero si no sucede eso entonces pasa a else donde abra una funcion de typeid(buscar.name(); que es buscar el numero que se le pide en la matrices tambien tenemos una variable repetidor que el valor de ella es 0 y su funcion es buscar el mismo numero pero la candidades que este repetida,
+
+a lo ultimo hacemos dos couat donde me muestre el numero repetido y la cantidad
+
+5)R/
+//// OK
+nombramos una variable que se llame matriz y hacemos una capacidad de 4 x 4 que sinigfica cuatro cajones donde en cada uno se puede almacenar cuatro valores
+
+14- hacemos un "for" para que recorra todo la matriz de "f" que es filas y hacemos otro "for" que recorra "c" que son columnas y de esta manera haces  un "cout" donde me muestre la matriz de "f" y "c" luego hacemos otro "for" igual como la anterio lo unico que se cambia es en "cout<<matriz_A [c][f]";y hay me muestra es lo contrario de la matriz original
+
+6)R/
+/// La explicación coincide con el código aunque el programa tiene errores
+8- nombro unas variables que se llama capacidad y capacidad2 donde su valor sera 3 y 4
+
+10-luego hago dos matrices colocando esos valores que nombre en el anterior linea y esas matrices la llame A y B,
+
+luego hice un "if" comparando las dos capacidades uno que no fuera mas de 3 y otro que no fuera mas de 4 si se cumple el programa se termina
+
+pero si no se cumple va para "else" donde hay dos for que buscar en las matrices y a lo ultimo coloco un "cout" para que me muestre el resultado de dos matrices con una simple suma.
+
+
+
