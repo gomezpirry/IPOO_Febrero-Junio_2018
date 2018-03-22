@@ -1,0 +1,62 @@
+//-------------------------------------------------
+//   Calificación: 1.25
+//
+//-------------------------------------------------
+
+#include<iostream>
+#include<limits>
+
+using namespace std;
+
+struct estudiante{
+ string nombre;
+ int codigo;
+ float quiz1;
+ float quiz2;
+ float parcial;
+ float proyecto;
+ float final;
+};
+
+void mostrarEstudiantes(estudiante arreglo[], int s){
+ cout<<"Nombre\t"<<"Codigo\t"<<"quiz1\t"<<"quiz2\t"<<"proyecto\t"<<"final\t" ;
+ for(int i=0;i < s; i++){
+  cout << arreglo[i].nombre<<"\t"<< arreglo[i].codigo<<"\t"<< arreglo[i].quiz1<<"\t"<< arreglo[i].quiz2<<"\t"<< arreglo[i].proyecto<<"\t"
+  << arreglo[i].final<<"\n";
+ }
+}
+
+void calcularNotas(estudiante arreglo[], int s){
+ for(int i=0; i < s; i++){
+  arreglo[i].final=((arreglo[i].quiz1+arreglo[i].quiz2)/2)*(arreglo[i].proyecto*0.4)+(arreglo[i].parcial*0.5);
+ }
+}
+
+int main(){
+ int cantidad;
+ cout<<"Ingrese la cantidad de estudiantes: ";
+ cin>>cantidad;
+ 
+ const int size = cantidad;
+ estudiante estudiantes[size];
+ 
+ for(int i=0; i < cantidad;i++){
+  cout<<"ingrese nombre: ";
+  cin>>estudiantes[i].nombre;
+     cout<<"ingrese codigo: ";
+  cin>>estudiantes[i].codigo;
+  cout<<"ingrese quiz1: ";
+  cin>>estudiantes[i].quiz1;
+  cout<<"ingrese quiz2: ";
+  cin>>estudiantes[i].quiz2;
+  cout<<"ingrese parcial: ";
+  cin>>estudiantes[i].parcial;
+  cout<<"ingrese Proyecto: ";
+  cin>>estudiantes[i].proyecto;
+  cout<<"ingrese final: ";
+  cin>>estudiantes[i].final;
+  
+ }
+  }
+  calcularNotas(estudiantes, cantidad)
+  mostrarEstudiantes(estudiantes, cantidad)

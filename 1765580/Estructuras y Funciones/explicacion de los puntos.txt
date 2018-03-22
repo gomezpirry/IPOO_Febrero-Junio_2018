@@ -1,0 +1,46 @@
+//-------------------------------------------------
+//   Calificación: 
+//
+// - Ejercicio 1: 1.25	
+// - Ejercicio 2: 1.25
+// - Ejercicio 3: 1.25
+// - Ejercicio 4: 1.25
+//
+//--------------------------------------------------
+
+
+ANDRES FELIPE HENAO PADILLA----1765580
+
+1) se requiere un programa que busque el mayor y el menor de un arreglo,que por defecto vbusque el mayor.
+lo primero que se realizo fue una sobrecarga para que reciba diferentes parametros de entrada una de flotantes y otra de enteros,en la primera funcion
+que se realizo se creo con una entra de  flotantes que lo que   realiza, es que con un ciclo for se recorre el arreglo, y una variable valor comparara los numeros 
+con el primero que tiene almacenado,si el numero almacenado es menor que el segundo numero del arreglo lo actualizara por dicho numero,y asi sucesivaqmente se 
+recorrera el arreglo hasta hayar el menor despues se hizo el mismo procedimiento dicho anteriormente pero ahora buscando el menor del arreglo de flotantes,despues
+ se hizo la sobrecarga de la funcion que hace el mismo procedimiento que hace lafuncion de flotantes, solo que esta vez con una entrada de enteros, ya por ultimo
+ se definieron los arreglos y se creo un pequeño menu en pantalla para facilitar el llamado de lo que se quiere buscar.
+
+
+
+2)para el segundo punto primero se creo una enumeracion la cual va definir a cuanto equivalen los golpes de samus aran,despues se crea una funcion 
+de daño recibido, que recibe dos enteros y un arreglo los cuales el primero la energia inicial y el segundo la cantidad de golpes y por medio de un for disminuye 
+la energia nicial con cada golpe definido en el arreglo,despues se creo una variable energia tipo entero que almacena la energia de samus que se le 
+quiera establecer,y se creo una funcion llamada secuenciagolpes que define un arreglo de 10 golpes,se creo la variable golpes que guarda el tamaño del arreglo de 
+la secuencia de golpes,despues se  ejecuta la funcion daño recibido y muestra por pantalla la energia que le queda a samus.
+
+
+
+3)para la solucion del tercer punto primero se creo una estrcutura estudiante la cual guarda el codigo el quiz1,quiz2,quiz3,parcial,proyecto y final, la funcion va a recorrer 
+un arreglo de estudiantes y va a mostrar la informacion que almacena esta,y se creo la  funcion calcular notas la cual va calcular la nota final del estudiante y la va a guardar,
+despues se crearon los estudiantes y se guardan en un arreglo, se calcula las definitivas y se muestran en pantalla.
+
+
+
+4)para el carto punto se creo la funcion leer tecla recibe como parametro un puntero a un  arreglo de enteros,se pide que ingresen cinco teclas y por medio de un ciclo while se captura el codigo  
+ascci de cada tecla con la funcion getch y se guarda en el arreglo,luego la funcion transformar string recibe un puntero a un arreglo de strings y un arreglo de
+ enteros,se recorre el arreglo de enteros y cada posicion se transforma a su equivalente en letras y los guarda en el arreglo de strings. y se creo un switch que va 
+aseparar los casos especiales de arriba,abajo,derecha y izquierda,y luego se definio una matriz de 7x7 donde esta la secuencia de teclas y da la clave a la que
+ corresponde,despues de eso se definio la funcion verificar clave,la cual recibe un puntero a un vector de strings,esta funcion lo que realiza, es recorrer la matriz 
+si el comando que se ingreso coincide con lo que esta almacenado en la matrizy retorna la clave si este lo encuentra,  si no es asi retornara el mensaje 
+la clave no existe.
+
+

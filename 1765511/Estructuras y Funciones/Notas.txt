@@ -1,0 +1,42 @@
+//-------------------------------------------------
+//   Calificación: 1.25
+//
+// * Mejorar ortografia, en todos los trabajos comete errores ortograficos graves
+// * Para una próxima entrega le rebajare una decima por falta ortografica grave 
+//--------------------------------------------------
+
+/// Coincide con lo que est escrito
+
+En este punto nos piden que realicemos un programa que calcule la nota de los estudiantes
+y nos retorne una lista con su codigo nombre y asugnaturas.
+
+Primero definimos un String dentro del String definimos el nombre de esa bariable
+que en este caso se llamara nombre y a nombre le vamos a dar el numero de estuduantes que nos apareceran en la lista
+
+seguimos definimos un int, y dentro de ese int definimos una variable llamada codigo
+en la cual almaecenamos la cantidad de valores que vamos a ingresar, en pocas palabras la cantidad de codigos de los alubnos, definimos varios  float en los cuales vamos a nombrar dependiendo 
+de que vamos a alificar en este caso son quizes parciales y proyesctos dentro de ellos
+vamos a definir las notas de que cada uno de esos alumnos saco en cada una de esas actividades
+
+continuamos con la otra parte que seria validacion  del tamaño de cada uno de los areglos antes definidas
+como el nombre,codigos,quizes,parciales y proyectos la cual para definir su tamaño
+lo hacemos con un SIZEOS a cada una de esas variable las definimos con valores ceros ya que anteriormente le dimos valores almacenados, tambien en esos int
+definimos los los nombres de las variables que estamos utilizando claro solo para validarlas un modo 
+estatico como booleanos.
+
+luego usamos un if en el cual vamos a alojar la funcion logica ne nuestro programa con parando con signos de igualdad y preguntandole si una variabl es igual a la otra
+y en caso de que no coincidan con un cout le pedimos al programa que nos 
+retorne un mensaje diciendole al usuario que no coinciden los valores ungresados
+
+habrimos un for, luego un int y definimos un variable i la cual le damos el valor de cero, para hacer una 
+nose como decirlo lo dire como un argumento logico, digamos si la variable i
+es menor que la variablo Nombres entonces a la variable i sele aumenta un valor
+Si eso es cierto el programa procede a hacer el calculo de las notas de los alumos ya que anteriormente 
+utilizamos la variable i para almacenar espacion en ella y que cambie amedida que sele asigne una variable
+seguimos la regla para sacar un valor total y sumamos las notas de los dos quizes y la dividimos netre dos luego la multiplicamos entre 0.25 sumamos la nota del parcial y la multiplicamos por el 0.35
+mas la nota del proyecto que la multiplicamos por un 0.4 porciento
+
+para tener un poco mas de orden a la hora de mostrar el programa en pantalla hacemos un cout, al cual le vamos a asuignar entre comillas los datos, depues hacemos otro
+for, y dentro del for hacemos otro int y le damos valor a la variable i que sera igual a cero; y que cero es menor que nombre el esta parte hacemos que nos 
+imprima emn pentalla los valores lamacenados, por los nombres retornen sus nombres, las notas retornen las notas
+el proyecto retorne le proyecto , hacemos qu elo que definimos anteriorment, nos muestre esos datos definitivos el la pantalla.

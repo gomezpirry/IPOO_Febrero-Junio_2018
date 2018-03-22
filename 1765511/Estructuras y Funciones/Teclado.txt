@@ -1,0 +1,33 @@
+//-------------------------------------------------
+//   Calificación: 1.0
+//
+// * Mejorar ortografia, en todos los trabajos comete errores ortograficos graves
+// * Para una próxima entrega le rebajare una decima por falta ortografica grave 
+//--------------------------------------------------
+
+
+/// Corresponde al código fuente con algunas excepciones
+Nos pudide un programa que dijitando una tecla nos la reconcosca 
+que dijitando una variedad de teclas nos de su numero vinario (binario) o como dice en el taller
+su clave
+Primero definimos un void en el cual le vamos a colocar el nombre
+de transformador, despues definimos un int, en el cual vamos a lamacenar la cantidad de teclas que voy a utilizar
+luego usamos un string y le colocamos como nombre clave que cumpliara la funcion de multiplicar
+Habrimos un for en el cual habrimos un int para definir una variable i que le damos un valor cero, y despues le decimos 
+que si cinco es menor que la variable y entonces nos aumente un valor
+habrimos un switch dentro de ese switch colocamos el contador o areglo i, luego un case donde almacenaremos o le daremos valor a cada tecla 
+los valores o que debe retornar en caso de oprimir esa tecla lo definimos y cerramos con un break
+
+Luego de eso habrimos (abrimos) un int, main que es donde comensara(comenzará) nuestras funcion
+habrimos un espasion(expansión) de memoria llamado caracter y dentro de caracter le asignamos un valor de 5 y entre corchetes almacenamos los valores
+habrimos un int llamado contador y le damos un valor igual a cero,
+habrimos un whilw y dentro de ese while llamamos la variable contador y le decimos si contador en menor a cinco
+entonces hacer, habrimos otro int llamamos a caracter que tiene un valor de 5
+y lo igualamos con un getch y cerramos
+// Ahi no se iguala, se compara si es igual
+luego habrimos un if y volvemos a llamar a caracter y lo igualamos a cero, hacemos un salto y llamamos a caracter nuevamente y lo igualamos a 244 y 
+le escribimos continuar y cerramos......
+
+
+
+

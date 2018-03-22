@@ -1,0 +1,30 @@
+//-------------------------------------------------
+//   Calificación: 1.25
+//
+// * Mejorar ortografia, en todos los trabajos comete errores ortograficos graves
+// * Para una próxima entrega le rebajare una decima por falta ortografica grave 
+//--------------------------------------------------
+
+Nos Piden hacer un programa que nos calcuale la energia restante de un traje dependiendo 
+de la canidad el golpes recibida por cada combo,
+
+primero definimos con un emun la variable golpes y a cada golpe o acada combo se le define el porcetaje
+de poder que va a tener cada una de ellas.
+habrimos un int, en el cual vamos a definir la variable daño recibido, en la cual definimos con otro int
+la energia inicial y con otro int, definimos la cantidad de golpes y para terminar hacemos otra variable llamada secuancia de 
+golpes y la dejamos vasia no le asignamos valor porque dentro de esa secuencia de golpes vamos alamacenar 
+la cantidad de combos o secuencias de golpe que vamos a utilizar.
+
+Y le pedimos que nos retorne la energia inicial osea la variable que habiamos definido antes, despues abrimos un main que sera por 
+donde nuestro programa comensara, definimos la energia inicial con un int, habrimos un for y dentro de ese for habrimos un int
+que definimos como golpe que es igual  cero, despues decimos que golpes es menor que la cantidad de golpes y si eso es cierto el programa nos sigue contento 
+por decirlo asi nos aumenta un valor despues le restamos energia inicial a secuencia de golpes que esta practicamente siendo una variable que aumenta 
+su valor numerico dependiendo de la cantidad de combos que yo le defina.
+y despues definimos la cantidad de golpes que vamos a utilizar o en pocas palabras los combos que querramos ejecutar
+una vez echo todo esto hacemos un int, definimos una variable golpes y con un sizeof definimos el tamaño del areglo que estamos haciendo
+y dentro de ese arreglo llamamos a la secuencia de golpes que seia nuestra variable antes definida
+luego creamos otro int, y dentro de este int colocamos la variable energia restante y le decimos que energia restante es igual a daño recibido
+y dentro de esa variable colocamos la energia de el traje, los golpes o combos, y la secuencia de golpes
+debemos recordar que la secuencia de golpes tiene ciertos valores dependiendo de su daño que definimos anterior mente.
+
+Luego con un cout le pedimos que nos imprima en pantalla la energia restante del traje.

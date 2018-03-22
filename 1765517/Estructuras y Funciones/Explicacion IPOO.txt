@@ -1,0 +1,99 @@
+//-------------------------------------------------
+//   Calificación: 
+//
+// - Ejercicio 1: 0.0
+// - Ejercicio 2: 1.25
+// - Ejercicio 3: 1.25
+// - Ejercicio 4: 0.5
+//
+//--------------------------------------------------
+
+Martha Isabel Posada Betancur
+Codigo: 1765517-2711
+
+Explicación de los ejercicios, estructuras de datos y funciones.
+
+
+Primer Punto:
+
+// no hay archivo del primer punto
+Se requiere un programa que retorne el mayor o el menor valor de un arreglo. La funcion
+puede recibir un arreglo de otantes o de enteros a ordenar (use sobrecarga) y el tamano
+del arreglo. Tambien recibe un booleano para indicar si se desea buscar el mayor (true)
+o el menor (false); por defecto la funcion buscara el mayor.
+
+- Lo primero por hacer es definir ua variable entero (int,) el cual lo que va a hacer es ir buscando en una serie de arreglos
+el mayor, esta variable se usara cuando el boleano sea true (verdadero), de lo contrario que sea falso (false) va a buscar el menor del arreglo 
+guardará el número y lo va a comparar con los otros valores, el que sea mayor es el que estara guardado en esta variable; cuando ya haya ordenado de mayor 
+a menor la función va a retornar el numero mayor, el cuál está guardado en la variable valor, para que esto se cumpla se requiere una función (for)
+la cuál lo que hace es recorrer el arreglo e ir seleccionando el mayor para ordenarlos, la funcion int main que contiene los datos que tiene el arreglo
+y llamará cada de una de las funciones definidas anteriormente y así realizen la operación que se les asigno y retorne el mayor del arreglo ira al final.
+
+
+Segundo Punto: 
+
+Samus Aran cuenta con el power suit, el cual tiene un analizador de da~no basado en
+los golpes que recibe. El power suit cuenta con un programa que recibe un arreglo de
+enumeraciones, donde cada enumeracion representa un golpe recibido. Cada golpe tiene
+un nivel de da~no y le resta puntos de energia como se indica a continuacion:
+
+MORDEDURA = 50
+PUNETAZO = 100
+ESPADAZO = 150
+RAYO = 200
+EXPLOSION = 300
+De una una funcion que reciba el nivel de energia inicial, la cantidad de golpes recibidos 
+y un arreglo de enumeraciones con las secuencia de golpes que recibio el power suit, y
+retorne el nivel de energía restante despues de recibir los golpes.
+
+- Lo primero por hacer es definir una variable enum, para guardar los golpes y su respectivo valor de daño que va a recibir el traje como enumeraciones, 
+luego se define un entero (int) el cuál va a guardar los datos de daño que recibe el traje, dentro de esta variable int se definen otras variables
+la cual va a llamar la energía inical, cantidad de golpes y secuencia de golpes, cada uno de estos valores como enteros, luego se declara un for que lo que 
+va a hacer es recorrer la cantidad de golpes, cada vez que hace esta operación disminuira la energia inicial del traje con la secuencia de golpes, despues se 
+usa el int main, cuya función es llamar dichas funciones, dentro de este se define la energia incial como entero, despues esta funcion va a evaluar la
+cantidad y el tipo de golpe que recibe el traje, por ultimo se define el cout, que me va a mostrar la energia que le queda al traje al final.
+
+
+
+Tercer Punto:
+
+
+Se requiere un programa para calcular las notas de los estudiantes de un curso basado
+en las siguientes consideraciones:
+Se tiene una estructura llamada Estudiante que tiene los siguientes miembros:
+nombre del estudiante, codigo del estudiante, nota del quiz1, nota del quiz2, nota
+del parcial, nota del proyecto y nota final.
+Se tiene un arreglo de estructuras Estudiante donde cada indice del arreglo corresponde
+a un estudiante.
+Calcule la nota final de cada estudiante teniendo que la evaluacion del curso es la
+siguiente:
+quizes: 25%
+parcial: 35%
+proyecto: 40%
+Finalmente mueste en consola la lista de todos los estudiantes con todas las notas
+incluyendo la nota final.
+
+- Se define una estructura (Estudiante) que contiene el string para el nombre, un entero para el codigo del estudiante y float para las notas de los 
+quizes, parcial, proyecto y para que me retorne la nota final como un flotante, se define un arreglo de estructuras Estudiante
+ con el cout se le pide al usuario que ingrese  el nombre, el codigo y las notas del estudiante, con un for se recorren los arreglos de estructura Estudiante
+y los sume, multiplique o divida según sea el caso, por último se define el int main, encargado de llamar las funciones definidas y le pida al usuario
+la cantidad de estudiantes a evaluar, que se mostrarán en consola, despúes de ingresar dichos datos el programa realizara las operaciones
+matematicas correspondeintes y me muestre en consola el nombre y codigo de estudiante con su respectiva nota.  
+
+Cuarto Punto:
+
+Se requiere un programa que valide el ingreso de claves de un video juego. El usuario
+debe presionar cinco teclas en consola y el programa valida si la secuencia de teclas
+ingresada corresponde a una clave del juego o no, y debe mostrar a que clave pertenece.
+Para resolver este ejercicio se requiere el uso de arreglos, enumeraciones y funciones.
+
+- En primer lugar se define una variable enum, para enumerar las direcciones de las flechas (arriba, abajo, izquierda y derecha)  con sus respectivos 
+valores, luego se crea una función para trasnformar para asiganarle una clave a cada una de las teclas, se usa un for para recorrer el arreglo que 
+tiene las teclas para las claves, esta funcion esta definida como un entero (int), se usa un switch para las diferentes opciones que tiene el jugador, se define
+las claves para las teclas, luego se crea el int main en el cual ira un entero (caracteres) con un tamaño de 5 osea que se requieren 5 flechas, por medio de un 
+getch el programa validara si la clave ingresada por el usuario existe o no, (El programa no hace lo que escribes de aqui en adelante) el programa comprobará si las teclas digitadas y las compará con las 
+claves anteriormente guardadas, si todo está bien el programa retornará el nombre de la clave.
+
+
+
+

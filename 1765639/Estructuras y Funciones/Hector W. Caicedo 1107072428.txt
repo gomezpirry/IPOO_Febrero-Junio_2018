@@ -1,0 +1,15 @@
+//-------------------------------------------------
+//   Calificación: 
+//
+// - Ejercicio 1: 0.8
+// - Ejercicio 2: 1.25
+// - Ejercicio 3: 0.0
+// - Ejercicio 4: 0.0
+//
+// * Misma texto en el punto 2 que 1765503
+//--------------------------------------------------
+
+1. Para la solución de este problema primero debemos definir una variable (una variable no busca el numero en el arreglo) la cual se va a encargar de buscar el numero mayor en un arreglo, esta variable se utilizara cuando el boleano sea verdadero (true) si no buscara el menor el arreglo o lo que va hacer es ir guardando en numero mayor dependiendo si es mayor con el que sigue el arreglo y va a ir organizando de mayor a menor, la funcion retornara el numero mayor  el cual se encuentra guardado en la variable valor  pero para ello se creara  un for el cual recorre el arreglo para ir identificando el mayor y poder ordenarlo luego colocamos  el int main y definimos los dato que contiene el arreglo y se llamara cada una de las funciones para que hagan dichas operaciones y me retorne el numero
+2. Primero creamos una variable para los golpes, luego en un enum colocamos  los tipos de golpes con sus respectivos valores, ej: MORDEDURA = 50 PUNETAZO = 100 ˜ ESPADAZO = 150 RAYO = 200 EXPLOSION = 300, luego definimos un entero, en el cual se van a guardar los datos del daño que recibe el traje, pero para esto se necesita otra variable la cual podemos llamar vida o energía, y la otra cantidad de golpes y secuencia de golpes todos como entero luego creamos un for y este recorre la cantidad de golpes que están en un arreglo, cada vez que recorre el arreglo se disminuye en uno y guardara en golpe hasta que llegue a cantidad de golpes, luego creamos un int main para llamar las funciones, definimos un entero energía el arreglo con los golpes recibidos luego realizamos una funcion que me calcule el tamaño del arreglo después de ello definimos la  energía restante como entero la cual era igual a daño recibido que era energia golpes y secuencia de golpes por ultimo un cout para que me retorne la energía restante del traje.
+3. // No uso estructuras y esta mencionando que definio estrucutras
+Primero debemos definir una estructura de enteros  y float la cual se llame estudiantes, y en esta se guardara el quiz1, quiz2, parcial1, parcial2, proyecto y nota final, luego  definimos una función la cual va a mostrar las notas del estudiante por medio de la consola  con un cout para que digite luego de esto, creamos una función con un for que calcule y que recorra 1  a 1 dicho arreglo y las sume y las multiple x 4 (* 0.4). luego de esto definimos un int main y este llamara dichas funciones y les pide la cantidad de estudiantes para que las digite y haga dichas operaciones y al final muestre el resultado de las notas de dicha cantidad de estudiantes.

@@ -1,0 +1,37 @@
+//-------------------------------------------------
+//   Calificación: 1.25
+//
+//-------------------------------------------------
+
+#include<iostream>
+
+using namespace std;
+
+enum golpes{
+ 
+ mordedura = 50,
+ punetazo = 100,
+ espadazo = 100,
+ rayo = 200,
+ explosion = 300
+ 
+};
+
+int dañoRecibido (int energiaInicial, int cg, golpes sg[]){
+
+for(int i=0;i>cg;i++){
+ energiaInicial -= secuenciaGolpes[golpe]
+}
+
+return energiaInicial;
+}
+
+int main(){
+ int energia = 100000
+ golpes secuenciaGolpes [7] = {mordedura, explosion, punetazo, rayo, punetazo, rayo, mordedura};
+ 
+ int golpes = sizeof(secuenciaGolpes)/sizeof(secuenciaGolpes[0]);
+ int energiaRestante = danoRecibido(energia, golpes, secuenciaGolpes);
+ 
+ cout<< "Al traje le queda "<< energiaRestante<<" de aramdura";
+}

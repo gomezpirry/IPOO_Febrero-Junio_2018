@@ -1,0 +1,19 @@
+//-------------------------------------------------
+//   Calificación: 3.0
+//
+// - Ejercicio 1: 0.0
+// - Ejercicio 2: 1.25
+// - Ejercicio 3: 1.25
+// - Ejercicio 4: 0.0
+//
+// * Mismo documento que 1755205
+//--------------------------------------------------
+
+
+// No usa sobre carga de funciones
+1-Primero utilizamos un void para una sobrecarga y allí definimos las variables y arreglos.
+En ese void aremos un for el cual tendrá la función de almacenar en el arreglo los números que ingresen, haremos otro for para que haga el proceso de sacar el mayor y el menor en él también haremos un condicional el cual tendrá la función de decirnos si es 1 entonces que saque el mayor y si es 0 el menor.
+Luego en el main llamaremos toda esa función y agregaremos los datos faltantes.
+
+2-Primero utilizamos enum para crear unas diversas opciones sobre los ataques que va a recibir el power suit, después creamos nuevas funciones las cuales harán el proceso de restarle la energía al power suit, utilizamos el comando for para realizar esto y que vaya pasando por cada uno de los ataques creados y esto se lo reste a la energía.
+En el main llamaremos a las funciones creadas anteriormente. 

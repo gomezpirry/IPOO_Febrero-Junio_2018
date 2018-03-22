@@ -1,0 +1,26 @@
+//-------------------------------------------------
+//   Calificación: 0.0
+//
+// * Mejorar ortografia, en todos los trabajos comete errores ortograficos graves
+// * Para una próxima entrega le rebajare una decima por falta ortografica grave 
+//--------------------------------------------------
+
+Nos piden que realicemos un programa que nos diga si un numero es mayor o un numero
+o un numero es menor.
+
+/// En ningun momento realiza una multiplacion
+Primero definimos un areglo de tipo entero,al cual le colocamos un nombre dentro de el 
+colocamos un Int, de tipo entero el cual vamos a multiplicar, por otra variable llamada arreglo
+definimos un numero de tipo entero y un boleano llamado mayor el cual sera verdadero.
+Este arreglo tiene como funcion principal definir los tipos de datos que vamos a utilizar en esa bariable. (variable)
+
+Despues colocamos otro int para definir una variable llamada valor y decimos que valor es igual a arreglo, le decimos que 
+// En ningun momento define una variable con 0
+
+el valor es igual a lo que esta almacenado en la bariable arreglo la cual la definimos con un cero,
+habrimos un for,un int,y dentro de esa funcion vamos a definir una variable llamada i la cual le decimos que es igual a cer
+y despues la variable y la comparamos con un mayor o menor que y definimos un uno seguido de ++ para decirle al programa que 
+siga aumentando el valor de i asta llegar al valor int definido anterior mente loego habrimos in if dentro de ese if valoa a hacer la funcion logica
+del programa le vamos a decir que si el arreglo es mayor o menor que el valor
+y que si el valor es igual al arreglo y nos debe retornar un numero mayor o menor dependiendo de los signos
+que e3stemos utilizando.

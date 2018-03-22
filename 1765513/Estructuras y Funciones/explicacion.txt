@@ -1,0 +1,70 @@
+//-------------------------------------------------
+//   Calificación: 
+//
+// - Ejercicio 1: 0.8
+// - Ejercicio 2: 1.25
+// - Ejercicio 3: 1.25
+// - Ejercicio 4: 0.0
+//--------------------------------------------------
+
+1:
+
+/// No usas sobrecarga
+se hace una sobrecarga de datos primero, que contiene un arreglo y un bool para definir si es verdadero.
+
+luego colocarmos un "if" donde se indicara si es mayor si se cumpli entonces se hace un for  donde busca el arreglo el numero mayor.
+
+luego se hace un "return" para que retorne el resultado.
+// El main no tiene nada
+mas adelante colocamos el int main, para poner los datos del arreglo se pueden poder fijamente o interatuando con el usuario.
+
+2:
+en este punto se pone un "emun" que tendra una variable que se llame golpes y de hay vamos a definir unos datos con sus valores,
+
+mordedura = 50
+puñetazo = 100
+espadazo = 100
+rayo = 200
+explosion = 300
+
+luego hacemos uso de la sobrecarga con int dañorecibido que se llamara la variable y donetro de ella trenda otro int llamada energia inicial, y con un arreglo de int que se llamara golpes.
+
+luego creamos un for para que busque en los arreglos creados al principio.
+
+y colocamos un return para que de el resultado de daño ocacionado.
+
+luego hacemos un int main para colocar los datos dentro de eso hacemos una variable que se llame energia y tenga un valor de numero de energia "vida".
+
+despues creamos el arreglo con las varaibles nombradas que utlizamos al comienzo.
+
+luego colocarmos un int golpes con un sizeof que nos servira para los golpes con que le quitara energia.
+
+luego hacemos otro int energia restante donde nos indicara la cantidad que le queda despues de haber recibido esos golpes.
+
+3:
+
+lo primero e hacer una estrutura con las variables que necesitamos.
+
+ string nombre;
+ int codigo;
+ float quiz1;
+ float quiz2;
+ float parcial;
+ float proyecto;
+ float final;
+
+luego de tener la estrutura hacemos un void para que nos muestre los datos de los estudiantes y le colocamos un for para que recorra todos los datos de los estudiantes en el arreglo.
+
+hacemos otro void para calcular las notas y le incliumos el for para que se los haga a todo el arreglo.
+
+hacemos un cons int size para hacer la cantidad y llamamos a estudiante para que nos de los datos.
+
+por ultimo hacemos otro for pero para gregar los datos de lso estudiantes con cout y cin
+
+a lo ultimo le damos el resultado de los datos.
+
+4:
+
+no la entiendo 
+ 
+

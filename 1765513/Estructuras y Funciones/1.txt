@@ -1,0 +1,39 @@
+//-------------------------------------------------
+//   Calificación: 0.0
+//
+//-------------------------------------------------
+
+#include<iostream>
+
+
+using namespace std;
+
+/// Falta la funcion para flotantes
+int omn (int arreglo [], int s,bool mayor = true)
+{
+	if(mayor)
+	float valor = arreglo [0];
+	for(int i = 0, i<s;i ++){
+		if(arreglo[i] <valor){
+			valor = arreglo [i];
+		}
+	}
+	else valor = arreglo [0];
+		for(int i = 0, i>s;i ++){
+				if(arreglo[i] >valor){
+					valor = arreglo [i];
+				}
+			}
+
+
+	return valor;
+}
+
+
+/// El programa no hace nada
+int main (){
+
+
+
+}
+

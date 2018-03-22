@@ -1,0 +1,17 @@
+//-------------------------------------------------
+//   Calificación: 
+//
+// - Ejercicio 1: 0.8
+// - Ejercicio 2: 1.25
+// - Ejercicio 3: 1.25
+// - Ejercicio 4: 0.0
+//
+// * Misma texto en el punto 2 que 1765639
+//--------------------------------------------------
+
+/// Dices que la funcion retorna el numero mayor pero en el codigo la funcion no usa el return
+1. Se define una variable entero el cual buscara el número mayor en un arreglo esta variable se utilizara si en el boleano es true si no buscara el menor el arreglo lo que va hacer es ir guardando el numero en valor dependiendo si es mayor con el que sigue, cuando el arreglo ya este ordenado de mayor a menor la función retornara el número mayor  el cual se encuentra guardado en la variable valor  pero para esto necesita  un for el cual recorra el arreglo para ir identificando el mayor y asi ordenarlo después de esto se pone el int main donde se define los dato que contiene el arreglo y se llamara cada una de las funciones para que hagan dichas operaciones y me retorne el número mayor.
+2. 2. Primero hacemos  una variable para los golpes, luego dentro de  enum colocamos  los tipos de golpes con sus respectivos valores, (MORDEDURA = 50 PUNETAZO = 100 ˜ ESPADAZO = 150 RAYO = 200 EXPLOSION = 300) luego definimos un entero, en el cual se van a guardar los datos del daño que recibe el traje, pero para esto se necesita otra variable la cual podemos llamar vida o energía, y la otra cantidad de golpes y secuencia de golpes todos como entero luego creamos un for y este recorre la cantidad de golpes que están en un arreglo, cada vez que recorre el arreglo se disminuye en uno y guardara en golpe hasta que llegue a cantidad de golpes, luego creamos un int main para llamar las funciones, definimos un entero energía el arreglo con los golpes recibidos luego realizamos una funcion que me calcule el tamaño del arreglo después de ello definimos la  energía restante como entero la cual era igual a daño recibido que era energía golpes y secuencia de golpes por ultimo un cout para que me retorne la energía restante del traje.
+
+/// Corresponde a lo que dice el codigo
+3. primero definimos la vas variables que son los nombre y sus codigos, siguiendo creamos 5 arreglos, que es el quiz1 quiz2 parcial proyecto y finales que es la nota final. hacemos una funcion llamas size para darle una comparacion si coinciden los tamaños, creamos un contador para ir que cada arreglo osea cada nota tenga su porcentaje. por ultimo se suman todas las notas y nos da por ultimo la nota final

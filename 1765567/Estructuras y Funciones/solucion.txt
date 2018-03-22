@@ -1,0 +1,19 @@
+//-------------------------------------------------
+//   Calificación: 
+//
+// - Ejercicio 1: 0.5
+// - Ejercicio 2: 1.25
+// - Ejercicio 3: 0.0
+// - Ejercicio 4: 0.5
+//
+//--------------------------------------------------
+
+1).Se define una variable entero (no es una variable la que busca el mayor) el cual buscara el mayor en un arreglo esta variable se utilizara si en el boleano es true si no buscara el menor el arreglo lo que hara es ir guardando el numero en valor dependiendo si es mayor con el que sigue cuando el arreglo ya este ordenado de mayor a menor la funcion retornara el numero mayor  el cual se encuentra guardado en la variable valor  pero para ello se necesitaria un for el cual recorra el arreglo para ir identificando el mayor y haci ordenarlo (El arreglo no se ordena) despues de ello se pone el int main donde se define los dato que contiene el arreglo y se llamara cada una de las funciones para que hagan dichas operaciones y me retorne el numero mayor.
+
+2).se definenlas variables de los golpes como enumeraciones con sus respéctivos valores des pues de ello se define un entero el cual guardara los datos de daño qu recibe dicho traje para eso se necesitan otras variables dentro de esa variable la cuales llame energia inicia cantidad de golpes golpes y secuencia de golpes cada uno como entero luego de ello se define un for el cual recorre la catidad de golpes que estan en un arreglo  cada vez que recorre el arreglo se mermara en 1  y guardara en golpe hata que llegue a cantidad de golpes depues utilice el int main para llamar dichas funciones define un entero energia el arreglo con dichos golpes despues realice una funcion que me calcule el tamaño de el arreglo despues de ello defini enregia restante como entero la cual era igual a daño recibido que era energia golpes y secuencia de golpes por ultimo un cout para que me retorne la energia restante del traje.
+
+/// No uso estructras
+3).defini una estructura de enteros y float  llamada estudiante la cual guardara  los quizes parciales proyectos  y nota final despues de ello se define una funcion la cual mostrara las notas del estudiante por consola con un cout paque dijite en consola despues de ello que dijiten dichas notas  una funcion que las calcule on un for que recorra uno a uno dicho arreglo las sume y las multiplique *0.4 luego defini un int main el cual llamara dichas funciones  y le pida la cantidadde estudiantes para que lasdigite y haga dichas operaciones y al final me retorne el resultado de las notas de dicha cantidad de estudiante.
+
+4).enumere las direcciones de las flechas con sus respectivos valores cree una funcion llamada transformar la cual utilizaba dichas teclas para una clave determinada utilice un for para recorre un arreglo el contiene dichas teclas para la clave esta funcion tiene definido un entero teclas  luego se utiliza un switch para las varias opciones en caso de las teclas enumeradas luego defini las claves con sus respectivas flechas  o teclas y aque corresponde cada clave despues de ello cree un int main en el cual utilizare dichas funciones definidas 
+en el cual ira un entero que se llamara caracteres el tiene un tamaño de 5 eso quiere decir que para cada clave son necesarias 5 flechas des pues de ello al usuario le saldra por consola la opcion de digitar la clave despues de que el usuario digite dichas claves mediante un gentch (El programa no hace lo que menciona desde aqui) el programa validara si la clave existe o no pero para ello se necesito un contador que  identifica si digitaban las 5 teclas y las compara con las claves guardadas si es asi el programa retornara el nombre de dicha clave.
