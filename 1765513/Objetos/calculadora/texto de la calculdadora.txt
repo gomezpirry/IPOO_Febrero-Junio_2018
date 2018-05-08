@@ -1,0 +1,13 @@
+calculadora.h
+
+lo primero es crear la clase
+de calculadora y luego se hace un private: donde ira todos los datos a la calculadora creamos unos void donde insertar es para colocar los datos e imprimir es lo que mostrara en el cuadro negro luego se hace el public: donde se haran las operaciones matematicas y por ultimo un void menu donde el usuario podra interatuar con la calculadora.
+
+calculadora.cpp
+
+aqui ponemos a funcionar las operacion de void en cada una de ellas para que de su propocito en la calcuadora por ejemplo el de suma que dos numeros se sumen y saque el resultado
+
+main.cpp
+
+aqui es lo mas importante es donde unira todo la funcion dando una funcion principal.
+se llama calculadora y se le crea unas iniciales de ella para llamar   las operaciones matematicas luego se hace un char con las opcion donde el usuario eligira que operacion desea hacer y mas abajo se crea un do para que el usuario marque su opcion y mas abajo se le hace el switch de opcion con cada una de ellas colocando el case y su numero correspodiente que significa el valor que vale la tecla que se digita luego mas abajo se le da la oportunidad de que se de regresar a la operacion o salir de ella

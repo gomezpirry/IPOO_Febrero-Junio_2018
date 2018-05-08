@@ -1,0 +1,30 @@
+yo hize eso hasta donde pude porque no me quizo dar por ninguna parte 
+
+banco.h
+
+lo primero que hago es hacer una clase que se llame cuenta de hay hago un private: y pongo los datos de la cuenta la contraseña y cuanto tiene de dinero en la cuenta pongo dos void de imprimir y ingrsar que me sirviran para que me muestre los resultados en pantalla.
+
+public:
+aqui llamo a cuenta
+y solo hago tres void donde iran ubicado a pantalla donde el usuario 
+otro void que se llamaran suma y resta que se encargaran de manejar la cantidad del dinero que posee el usuario
+
+banco.cpp
+
+aqui llamo a cuenta y les doy a cada uno de los derivadas creadas su cantidad y clave y el numero de usuario, 
+
+luego hacemos un void cuenta::suma para hacer la operacion de la suma con lo que le agregue el dinero a la cuenta del usuario
+
+void cuenta de resta:
+
+hace lo contrario se hace una operacion de lo que uiqere sacar el usuario de su cuenta
+
+creamos el void de ingresar que es donde se pidira el numero del monto que desea retirar o lo contrario.
+luego se hace void de imprimir para que le de el resultado de cuanto le quedo en la cuenta del banco
+
+void pantalla: se encarga de mostrar el menu del usuario para que digite el numero de la cuenta y la contraseña
+
+main.cpp
+
+aqui hago la funcion principal llamo a void pantalla para que inicialice con el usuario y contraseña
+y dependiendo si acierta o no acierta hago un while donde me mostrara las condicion de que la contraseña y el usario sea n correctas y mas abajo aparace un menu pequeño cuando el usuario haya acedido pueda eligir que desea y de hay creo un if dependiendo de la opcion uno lo lleva para la operacion de la suma y otra para de resta y listo hastsa hay llegue

@@ -1,0 +1,13 @@
+andres felipe henao padilla 1765580-2711
+2) primero se le agregaron sus respectivas librerias, el <fstream> para lectura de archivos,el <iostream>para motrar la informacion en la consola,
+y la libreria stdlib.h es para el system pause,depues se creo una case llamada cuenta que contiene unos atributos coomo son el numero de cuenta, el password,fondos,y el numero de transacciones
+despues de los atributos se le crearon unos metodos que usara la cuenta,que son la consignacion,el retiro.consultar el saldo,consultar las transacciones,cambiar la contreña y crear una nueva,y un ultimo metodo
+que es el acceder que retificara que la cuenta nueva que se creo sea igual a la que se ingreso por consola pra acceder,des pues se creo un archivo .cpp para la implementacion de los metodos,se creo un constructor cuenta,
+y una sobre carga de dicho constructor, por medio de un puntero this se diferencian los parametros en entrada con los metodos privados de la clase,despues con el ofstream es para poder escribir en un archivo de texto y se le pasa un 
+parametro para que escriba desde el principio en el archivo de texto,y despues se creo su destructor,y despues se crearon las funciones de implementacion de los  metodos,despues con la funcion consignacion se aumenta los fondos 
+con la cantidad ingresada y con su ofstream para la escritura en el txt pero con el parametro  ios::app que es para escribir al final del archivo,y se creo la funcion retiro con un if para validar de que la cantidad ingresada de retiro 
+no sea mayor al fondo actual y de nuevo se implemento su ofstream para la escritura en el txt, y se creo una funcion consulta saldo que me retorna los fondos actuales, y se implemento el ofstream con parametros  ios::app que es para 
+escribir al final del archivo,despues se implemento un ifstream va leer el archivo  y guarda cada linea en un string y lo va  imprimir,y despues se creo una funcion cambiar contraseña,que la contraseña anterior va a ser igual ala contraseña
+nueva,y de nuevo se implemento el ofstream para escribirlo en el txt en la ultima linea,y se creo la funcio acceder que va a verificar con un boleano de que el numero de cuenta y la contraseña que se creo sea igual al numero de cuenta y contraseña
+que se va ingresar por pantalla,y se creo un menu principal para dar las opciones de crear una cuenta e ingrsar la cuenta y despues un sub menu que realiza las operaciones que quiere que haga la cuenta en los menus se implenento un system cls
+para ir facilitando la interaccion con el usuario

@@ -1,0 +1,15 @@
+
+
+
+*Se creo una clase llamada CUENTA con sus respectivos atributos y métodos,este programa contiene un nombre de usuario,un número 
+de cuenta y un password.despues con un VOID hicimos la información de la cuenta,el ingreso al sistema los datos correspondientes,
+hicimos el menu de la cuenta,se creo una libreria para guardar archivos,en este caso se pide el nombre del archivo que se va
+ guardara en el disco local D del computador respectivamente guarda la transaccion que hizo el cliente, en la cuenta.h se creo 
+una clase de cuenta PRIVADA y PUBLICA Y por ultimo creamos una opcion con un SWITCH para validar la opción de la cuenta.
+
+
+
+
+
+
+

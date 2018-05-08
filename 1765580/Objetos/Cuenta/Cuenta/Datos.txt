@@ -1,0 +1,11 @@
+------------------------------
+cuenta creada
+numero de cuenta = 13
+contraseña = 12
+fondos Inicales = 2
+numero transacciones = 0
+------------------------------
+------------------------------
+consulta Transacciones
+Transacciones hasta el momento: 1
+------------------------------

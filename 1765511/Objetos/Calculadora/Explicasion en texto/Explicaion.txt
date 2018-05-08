@@ -1,0 +1,8 @@
+1. Definimos Las Librerias correspondiente 
+
+2. creamos un archivo punto .h que es donde vamos a almacenar 
+nuestras funciones para que sean reutilisables por decirlo asi
+
+
+Profe yo le envio la explicasion al correo que no cai en cuenta de
+que tenia que explicarlo.

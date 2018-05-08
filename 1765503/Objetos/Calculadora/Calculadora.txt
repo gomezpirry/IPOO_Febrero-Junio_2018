@@ -1,0 +1,8 @@
+
+
+*Se creo una clase llamada calculadora con  atributos que son los números que vamos a ingresar y unos métodos que es lo que realiza 
+el dicho programa,con sus respectivas operaciones matematicas,despues realizo un diseño de los metodos y atributos para tener 
+más claro lo que vamos a realizar,se creo un archivo .cpp para la implementacion de los métodos,  se creo un constructor 
+para los  parámetros, despues se crearon las funciones  creando objetos para las operaciones que se va 
+a realizar,por último con un SWITCH se creo el menú haciendo el llamados de las funciones que realizan las operaciones.
+

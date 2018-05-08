@@ -1,0 +1,17 @@
+cuenta.h se definieron los los metodos y atributos de la cuenta bancaria 
+
+
+main: contiene el menu con las diferentes opcines que usurio dece en el momento. 
+como retiro, deposito, saldo total 
+
+
+cuenta.cpp. 
+
+son las operaciones con cada una de metodos del programa que van hacer llamados en main..
+
+
+
+nota: no se cumpli con todos los puntos del programa pior la verdad me falta mucho mas pratica 
+para un programa tan complejo . en lo cual seguire trabajando..
+
+Muchas gracias por su atencion. 

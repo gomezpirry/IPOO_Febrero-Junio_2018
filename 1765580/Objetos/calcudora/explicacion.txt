@@ -1,0 +1,18 @@
+ANDRES FELIPE HENAO PADILLA-1765580
+
+1) se creo Un archivo de cabecera (calculadora.h) para la declaraciion de clases,
+atributos y metodos, los atributos que se colocaron fueron los numeros que le ingresa la calculadora y su resultado,
+y se creo su constructor para crear los numeros que ingresan y el resultado y se ejecuta cada vez que 
+se cree un objeto de la clase y se creo respectivo destrutor,
+para sus metodos se implementaron las operaciones que realiza, suma, resta,multiplicacion y porcentaje.
+despues se creo un archivo de implementacion (calculadora.cpp) para definir la
+ejecucion de los metodos, despues en la linea 5 se llamo al constructor de la clase que tiene los numeros que ingresa y su resultado,
+de la linea 6 a la 7 se definio un this para que lo que estaba en el atributo private sea igual al mismo numero,esto ayuda a 
+que las variables puedan ser llamadas de la clase private o si no esto no dejaria extraerlas por lo que es privada.
+despues Cada metodo es definido con el nombre de la clase seguido
+por una pareja de dos puntos (::) y el nombre del metodo que se va a describir,en el proceso de la implementacion de los metodos se hizo una
+pequeña validacion para que si el numero2 es mayor al primero dijera que es imposible de dividir
+despues en el main se mostrara en pantalla los numeros que se ingresaran para las operaciones,despues de la linea 55 a la 100se creo lo que el programa
+mostrara en pantalla,primero un while para evaluar una condicion de que la si la opcion es diferente a s se saliera del programa,y despues un swuitch
+que en el primer caso dice que si se ingresa la opcion n el programa permitira cambiar los numeros que se ingresaron, ya para los demas casos sus opciones
+son operaciones matematicas las cuales le ingresan sus objetos creados, llamando a la clase.

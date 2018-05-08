@@ -1,0 +1,96 @@
+Bueno profe esta es la explicacion de la calculadora.
+
+Primero creamos la libreria ifndef para poder usar las clases despues creo la clase
+llamada calculadora en donde voy a hacer los atributos y sus metodos.
+
+hago un private(privado) en donde las diferentes variables que vamos a utilizar para
+la calculadora.
+
+en los metodos hago el public(publico) en donde se encuentras los diferentes metodos
+que va a utilizar el archivo cpp, mejor dicho en donde va a sacar la informacion el
+archivo cpp.
+
+Pasamos al cpp
+
+en donde primero colocamos la libreria <iostream> pues que es la mas importantes sin
+ella no sirve el programa y la otra libreria es el archivo en donde esta la informacion
+que vamos a utilizar (archivo .h).
+
+primero le damos valores a la variables numero1, numero2 y resultado a 0,0 para que
+no allá desechos o numeros diferentes a los que vamos a ingresar
+
+suma: hacemos la operacion de la suma que es el numero 1 mas el numero 2 y esto
+se guarda en resultado
+
+resta: la resta que es numero1 menos numero2 y esto se guarda en resultado
+
+multiplicacion: el de multiplicacion mas de lo mismo numero1 por numero2 y se guarda en
+resultado
+
+division: la division que es si el numero es diferente a cero divida si no es que esta restando
+con cero y eso no se puede hacer
+
+raiz cuadrada: si es mayor o igual a cero haga la raiz si no mande un mensaje el cual
+dice que no pueden haber raices negativas
+
+la chicharroner: a si ya se complica algo creamos dos variables de tipo double y le
+damos un valor a resultado, despues le sacamos la raiz a ese resultado para al final
+tomar ese resultado, sumarlo y restarlo por -numero2 y despues dividirlo por la
+multiplicacion del numero1 por 2 por consiguiente mostrarlos en pantalla.
+
+factorial: le damos a factorial el valor de 1 y depues decimos si numero 1 es mayor
+o igual a cero realizamos un bucle en donde n es -1 debe ser diferente a cero y si
+se da resultado se multiplica por numero1 si no mande un mensaje en pantalla con 
+error
+
+                        interaccion con el usuario
+
+ahora siguen la parte en la cual nos comunicamos con el usuario: insertar es la 
+funcion que se va a usar con la suma, resta, multiplicacion y division 
+
+despues el ingresar que funcionara con la chicharronera el cual le pedira al usuario
+ingresar 3 valores
+
+y el imprimir que es el mostrara el resultado
+
+en esta calculadora hay cosas agregadas como los numeros primos, las tablas de
+multiplicar hasta el 10 y la masa corporal de una persona
+
+aca utilizo el system cls que es para agregar colores a nuestra interfaz
+
+tablas de multiplicar: la uso para diferenciar de la interfaz anterior, la operacion
+de la tabla de multiplcar es muy sencilla le pido al usuario el numero con el cual
+va a multiplicar con la variable llamada numeroMultiplicado la cual empezara 
+en 1
+
+primero hago while que hara llegar solo la multiplicacion hasta 10( < a 11) en donde
+el numero que ingreso se vaya multiplicando con el numeroMultiplicado y este ira 
+incrementando gracias al numeroMultiplicando++
+
+Masa corporal(IMC): primero el usuario introducira su puse el cual se guardara en
+numero1, despues su altura la cual se guardara en numero2 y por ultimo hago la
+operacion que es numero2 por numero2 / numero1 el cual se guardara en resultado
+
+                         interfaz del programa
+
+primero hacemos muchos cout para mostrar en pantalla una bonita interfaz que sera
+el menu
+
+despues hacemos la salida del programa que es una animacion a escribir exit
+
+que se le hara al metodo exit utilizando el plano cartesiano (x,y) haciendo muchos
+iteradores para crear cada paso de la animacion
+
+                                 main
+
+y por ultimo y mas importante el main:
+
+en el cual se guardan todas las respuestas que se realizaran en el programa y la 
+opcion que tomara el usuarion en el menu, si no toma alguna de las que hay saldra
+error de vuelva a intentar ya que no escogio el caso que es.
+
+y al final si va a escojer la salida(exit)
+
+
+
+

@@ -1,0 +1,48 @@
+main.cpp
+
+(#include "calculadora.h") la libreria de cabecera se utiliza para que reconosca el archivo llamada calculadora.h 
+donde esta definidos sus metodos y atributos que esta definidos.  
+
+linea 3 a la 9:
+
+se define en main las variables que se van utilzar en los diferentes casos de la calculadora.
+
+linea 11 a la 37.
+
+tenemos un (do)  donde nos sirve para ser un llamado a las funciones de la calculadora.
+
+
+
+calculadora.h 
+
+
+linea 7: se definio la clase llamada Calcuadora que va contener lo siguiente:
+
+linea 9 a la 15: de una manera privada se declararon  los atributos de la calculadora los 
+cuales puede modificarlos  solo los metodos.
+
+linea 17 a la 23: se declararon los metodos de una calculadora que van ser de manera publica que 
+se pueden modificar.
+
+
+calculadora.cpp
+
+archivo donde se va definir las funciones de los metodos con los atributos  cuando main haga su llamado correspondiente. 
+
+linea 3 a la 8: se declaron los numeros desde que numeron deben iniciar y por t
+l van ser 0.
+
+
+linea 11 a la 42: definiciones de las funciones suma, resta, multilicacion, division. 
+donde cada tendra funcion:
+                  
+                 -insertar: Donde van recibir los numeros de usurio que van hacer determida operacion. 
+                 -resulatdo: la operacion que se le asigné a esos dos numeros.
+                 -imprimir: muestra el resultado en pantalla. 
+
+linea 47 a la 53: la funcion insertar le pide al usurio los dos numeros y los retorna en pantalla.
+
+linea 55: imprime en pantalla el resulatado.
+
+linea 62 a la 77: ma mostar en pantalla las opciones del usurio.
+
